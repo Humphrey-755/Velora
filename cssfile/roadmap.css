@@ -1,0 +1,88 @@
+:root{
+    --subcolor: #0F141A;
+    --textcolor:#1C211D;
+    --maincolor:#F5F3EE;
+    --navcolor:#EAE7DF;
+    --fontfamily: tahoma, sans-serif;
+    --cardcolor:#FFFFFF;
+}
+.toraod{
+    width: 50%;
+    height: fit-content;
+    background-color: var(--cardcolor);
+    padding:1rem 1rem 1rem 1rem;
+    border-radius: 1rem;
+    border-width: 1px;
+    margin: 0 auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    transition: 0.5s ease-in-out;
+}
+.toraod:hover{
+    box-shadow:
+    0 4px 10px rgba(0, 0, 0, 0.08),
+    0 12px 30px rgba(15, 20, 26, 0.18);
+    transition: 0.5s ease-in-out;
+}
+.html{
+    text-align: center;
+    margin-top: 0.2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--textcolor);
+    font-family: var(--fontfamily);
+}
+.comple{
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: var(--textcolor);
+    font-family: var(--fontfamily);
+}
+.process{
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: var(--textcolor);
+    font-family: var(--fontfamily);
+    text-align: center;
+}
+.det{
+    border-style: none;
+    background-color: var(--navcolor);
+    border-radius: 1em;
+    height: 2.2em;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--textcolor);
+    font-family: var(--fontfamily);
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    display: block;
+    margin: 0 auto;
+}
+.det:hover{
+    cursor: pointer;
+}
+.filler{
+    width: 100%;
+    height: 20px;
+    background-color: var(--bordercolor);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 0.5rem;
+}
+.filling{
+    height: 100%;
+    background-color: var(--navcolor);
+    width: 0%;
+    transition: width 0.5s ease-in-out;
+}
+.downdown{
+    width: 5%;
+    height: 5%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.moredetail{
+    text-decoration: none;
+}

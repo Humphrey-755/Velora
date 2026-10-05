@@ -1,0 +1,112 @@
+:root{
+    --subcolor: #0F141A;
+    --textcolor:#1C211D;
+    --maincolor:#F5F3EE;
+    --navcolor:#EAE7DF;
+    --fontfamily: tahoma, sans-serif;
+    --bordercolor:#252E38;
+}
+.welcome{
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--textcolor);
+    font-family: var(--fontfamily);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    
+}
+.form-control{
+    width: 30em;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form-control:focus{
+    outline: none;
+    border-color: var(--navcolor);
+}
+.login-button{
+    width: 15em;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.411);
+    border-width: 2px;
+    border-radius: 0.5rem;
+    background-color: var(--maincolor);
+    color: var(--textcolor);
+    font-family: var(--fontfamily);
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.create-account{
+    font-size: 1rem;
+    color: var(--textcolor);
+    font-family: var(--fontfamily);
+    margin-top: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+.create-account-link{
+    color: #527A68;
+    text-decoration: none;
+}
+.email-control{
+    width: 30em;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.email-control:focus{
+    outline: none;
+    border-color: var(--navcolor);
+}
+.login-container{
+    background-color: var(--navcolor);
+    width: 30em;
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.219);
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+body{
+    background-color: var(--maincolor);
+}
+@media (max-width: 768px) {
+    .login-container{
+        width: 90%;
+        padding: 1rem;
+    }
+    .form-control{
+        width: 100%;
+    }
+    .login-button{
+        width: 100%;
+    }
+}

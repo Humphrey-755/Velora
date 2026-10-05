@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dashboard-Velora</title>
+        <link rel="stylesheet" href="../cssfile/nav.css">
+        <link rel="stylesheet" href="../cssfile/dashboard.css">
+        <script src="../javascriptfile/dashboard.js" defer></script>
+        <link rel="icon" type="image/x-icon" href="../imagesfile/logo.svg">
+
+    </head>
+    <body>
+            <nav class="topbar">
+                <img src="../imagesfile/menu.svg" class="menu" alt="Search Icon" width="40" height="40">
+                <div class="roadmap">
+                <img src="../imagesfile/logo.svg" class="road" alt="Logo" width="90" height="90">
+                <p class="map">Velora</p>
+                </div>
+                <img src="../imagesfile/notification.svg" class="note" alt="Notification Icon" width="90" height="90">
+                <p class="pfp"> My Profile</p>
+                <div class="profile">
+                    <img src="../imagesfile/dropdown.svg" class="pfpicon" alt="Profile Icon" width="25" height="25">
+                <div class="dropdown-content">
+                    <a class="dropdown-item" href="loginpage.html" 
+                > <span class="logout">
+                    Logout
+                </span>
+                </a>
+                <a class="dropdown-item" href="loginpage.html"> 
+                    <span class="logout">
+                    Create Account
+                </span>
+                </a>
+                
+                </div>
+                </div>
+            </nav>
+            <nav class="sidebar">
+                <a href="dashboard.html" class="icon-container">
+                    <img src="../imagesfile/homeicon.svg" class="icon">
+                    <span class="icon-text">Home</span>
+                </a>
+                <a href="roadmap.html" class="icon-container">
+                    <img src="../imagesfile/roadmapicon.svg" class="icon">
+                    <span class="icon-text">Roadmap</span>
+                </a>
+                <a href="Task.html" class="icon-container">
+                    <img src="../imagesfile/task.svg" class="icon" >
+                    <span class="icon-text">Tasks</span>
+                </a>
+                <a href="Project.html" class="icon-container">
+                    <img src="../imagesfile/work.svg" class="icon">
+                    <span class="icon-text">Projects</span>
+                </a>
+                <a href="progress.html" class="icon-container">
+                    <img src="../imagesfile/chart.svg" class="icon">
+                    <span class="icon-text">Progress</span>
+                </a>
+                <a href="settings.html" class="icon-container">
+                    <img src="../imagesfile/settings.svg" class="icon">
+                    <span class="icon-text">Settings</span>
+                </a>
+            </nav>
+
+        <div class="cont">
+            <div class="greet">
+                <img src="../imagesfile/logo.svg" class="img" alt="Logo" width="90" height="90">
+            <p class="greeting">Good Day, Humphrey 🙋‍♂️ <span class="highlight">Pick Up Where You Left.</span></p>
+            </div>
+            <div class="media">
+                <div class="together">
+                <div class="progress-container">
+                <div class="card">
+                        <p class="ovr">Overall Progress:<span class="progress-text"> 0% Complete</span></p>
+                    <div class="progress-bar">
+                        <div class="progress-fill">
+                        </div>
+                    </div>
+                    <p class="stage">0/14 Stages</p>
+                </div>
+            </div>
+            <div class="current">
+                <p class="status" id="status" >Current Status</p>
+                <div class="container">
+                    <p class="js"> JavaScript</p>
+                </div>
+                <a class="roady" href="roadmap.html">
+                <button class="extra">More Details</button>
+                </a> 
+            </div>
+            </div>
+            
+        </div>
+            <div class="tasky">
+                <p class="today" >Today's Tasks</p>
+                <div class="checklist">
+                    <label class="listing" >
+                        <input type="checkbox">
+                        Build model
+                    </label>
+
+                    <label class="listing" >
+                        <input type="checkbox">
+                        Finish DOM practice
+                    </label>
+
+                    <label class="listing" >
+                        <input type="checkbox">
+                        Learn event listeners
+                    </label>
+                    <label class="listing" >
+                        <input type="checkbox">
+                        Continue Js tutorial
+                    </label>
+                </div>
+            </div>
+            <div class="combine">
+                <div class="contain-roadmap">
+                    <p class="title">RoadMap</p>
+                    <p class="text-title">Javascript 0%</p>
+                    <div class="jsbar">
+                        <div class="innerjsbar">
+                        </div>
+                    </div>
+                    <p class="text-title">React.js 0%</p>
+                    <div class="jsbar">
+                        <div class="innerjsbar">
+                        </div>
+                    </div>
+                    <p class="text-title"> Backend Development 0%</p>
+                    <div class="jsbar">
+                        <div class="innerjsbar">
+                        </div>
+                    </div>
+                </div>
+                <div class="upcoming">
+                    <p class="title">Upcoming Topics</p>
+                    <p class="text-title">React.js</p>
+                    <div class="jsbar">
+                        <div class="innerjsbar">
+                        </div>
+                    </div>
+                    <p class="text-title">Backend Development</p>
+                    <div class="jsbar">
+                        <div class="innerjsbar">
+                        </div>
+                    </div>
+                    <p class="text-title">Databases</p>
+                    <div class="jsbar">
+                        <div class="innerjsbar">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="recently">
+                <p class="acti">Recent Activity</p>
+                <p class="act">Completed a minor topic in Javascript 'Object'</p>
+                <p class="act">Completed a minor topic in Javascript  'Functions'</p>
+            </div>
+            </div>
+    </body>
+</html>

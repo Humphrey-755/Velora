@@ -1,0 +1,46 @@
+:root{
+    --subcolor: #0F141A;
+    --textcolor:#1C211D;
+    --maincolor:#F5F3EE;
+    --navcolor:#EAE7DF;
+    --fontfamily: tahoma, sans-serif;
+    --cardcolor:#FFFFFF;
+}
+
+.alltasks{
+    margin-left: 7em;
+    display: flex;
+    flex-direction: column;
+}
+.introtask{
+    font-family: var(--fontfamily);
+    font-size: 2.5em;
+    color: var(--textcolor);
+    font-weight: 800;
+}
+
+.addtask{
+    font-family: var(--fontfamily);
+    font-size: 1.5rem;
+    color: #1C211D;
+    border-color: var(--navcolor);
+    background-color: var(--navcolor);
+    border-radius: 1em;
+    border-style: none;
+    padding: 0.6em 0.6m 0.6em 0.6em;
+}
+.priotask{
+    font-family: var(--fontfamily);
+    font-size: 1.5rem;
+    color: #1C211D;
+    border-color: var(--textcolor);
+    background-color: var(--navcolor);
+    border-radius: 1em;
+    border-style: none;
+    padding: 0.4em 0.4em 0.4em 0.4em;
+}
+.taskcont{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
