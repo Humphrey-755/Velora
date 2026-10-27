@@ -1,0 +1,76 @@
+:root{
+     --subcolor: #0F141A;
+    --textcolor:#1C211D;
+    --maincolor:#F5F3EE;
+    --navcolor:#EAE7DF;
+    --fontfamily: tahoma, sans-serif;
+    --cardcolor:#FFFFFF;
+}
+
+.allofthem{
+    margin-left: 6em;
+}
+.project-container{
+    background-color: var(--cardcolor);
+    width: 75%;
+    margin:0 auto;
+    border-radius: 1em;
+    padding-top: 0.4em;
+    padding-bottom: 0.7em;
+    margin-top: 2em;
+}
+.project-title{
+    font-size: 2em;
+    margin-left: 4em;
+    color: var(--textcolor);
+    font-family: var(--fontfamily);
+    margin-top: 1em;
+    text-align: center;
+    margin:0 auto;
+    font-weight: 800;
+}
+.project-description{
+    font-size: 1.7em;
+    margin-left: 4em;
+    margin-right: 4em;
+    font-family: var(--fontfamily);
+    line-height: 1em;
+    margin-top: 1em;
+    font-weight: 500;
+
+}
+.project-milestones{
+    font-size: 1.5em;
+    margin-left: 4em;
+    font-family: var(--fontfamily);
+    line-height: 1em;
+}
+.listing{
+    font-size: 1.4em;
+    font-family: var(--fontfamily);
+}
+body{
+    font-family: var(--fontfamily);
+}
+@media screen and (max-width:800px){
+    .project-container{
+        width: 90%;
+    }
+    .project-title{
+        font-size: 1.5em;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    .project-description{
+        font-size: 1.2em;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    .project-milestones{
+        font-size: 1.2em;
+        margin-left: 2em;
+    }
+    .listing{
+        font-size: 1.1em;
+    }
+}

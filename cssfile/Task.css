@@ -29,6 +29,9 @@
     border-style: none;
     padding: 0.6em 0.6m 0.6em 0.6em;
 }
+.addtask:hover{
+    cursor: pointer;
+}   
 .priotask{
     font-family: var(--fontfamily);
     font-size: 1.5rem;
@@ -38,6 +41,9 @@
     border-radius: 1em;
     border-style: none;
     padding: 0.4em 0.4em 0.4em 0.4em;
+}
+.priotask:hover{
+    cursor: pointer;
 }
 .taskcont{
     display: flex;
