@@ -1,0 +1,135 @@
+:root{
+    --subcolor: #0F141A;
+    --textcolor:#1C211D;
+    --maincolor:#F5F3EE;
+    --navcolor:#EAE7DF;
+    --fontfamily: tahoma, sans-serif;
+    --cardcolor:#FFFFFF;
+}
+.progress-container{
+    margin-left: 7em;
+    font-family: var(--fontfamily);
+}
+.pro-title{
+    font-size: 2.5em;
+    font-weight: 800;
+}
+.roadmap-container{
+    background-color: var(--cardcolor);
+    margin: 0 auto;
+    padding: 0.5em 0.5em 0.5em 0.5em ;
+    width: 75%;
+    border-radius: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.roadtit{
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.outbar{
+    margin: 0 auto;
+    width: 50%;
+    height: 20px;
+    background-color: var(--bordercolor);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.inbar{
+    margin: 0 auto;
+    height: 100%;
+    background-color: var(--navcolor);
+    width: 0%;
+}
+.codepro{
+    background-color: var(--maincolor);
+    margin: 0 auto;
+    padding: 0.5em 0.5em 0.5em 0.5em ;
+    width: 75%;
+    border-radius: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    transition: 0.5s ease-in-out;
+}
+.codepro:hover{
+    box-shadow:
+    0 4px 10px rgba(0, 0, 0, 0.08),
+    0 12px 30px rgba(15, 20, 26, 0.18);
+    transition: ease-in-out, 0.5s;
+}
+.percent{
+    color: var(--maincolor);
+}
+.progress-title{
+    font-size: 2.5em;
+    font-weight: 800;
+}
+.tasking{
+    font-size: 2.5em;
+    font-weight: 800;
+}
+.comple{
+    font-size: 2em;
+}
+.inprog{
+    font-size: 2em;
+}
+.remain{
+    font-size: 2em;
+}
+.alltask{
+    background-color: var(--maincolor);
+    padding: 0.3em 0.3em 0.3em 0.3em ;
+    border-radius: 1em;
+}
+.project-contain{
+    padding: 0.5em 0.5em 0.5em 0.5em ;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.projecting{
+    font-size: 2.5em;
+    font-weight: 800;
+}
+.ovrall{
+    font-size: 2.5em;
+    font-weight: 800;
+    text-align: center;
+}
+.ovroutbar{
+    margin: 0 auto;
+    width: 50%;
+    height: 20px;
+    background-color: var(--bordercolor);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.ovrinbar{
+    margin: 0 auto;
+   height: 100%;
+    background-color: var(--navcolor);
+    width: 0%;
+}
+.ovrpercent{
+    color: var(--maincolor);
+}
+.ovrcont{
+    background-color: var(--navcolor);
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 1em;
+    padding: 0.1em 0.1em 0.5em 0.1em;
+}
+.downdown{
+    width: 3.5em;
+    height: 3.5em;
+    margin: 0 auto;
+}
