@@ -1,0 +1,88 @@
+:root{
+    --subcolor: #0F141A;
+    --textcolor:#1C211D;
+    --maincolor:#F5F3EE;
+    --navcolor:#EAE7DF;
+    --fontfamily: tahoma, sans-serif;
+    --cardcolor:#FFFFFF;
+    --buttoncolor:#EAE7DF;
+}
+
+.allsetting{
+    margin-left: 7em;
+}
+
+.set{
+    text-align: center;
+    font-family: var(--fontfamily);
+    font-size: 2.5em;   
+    color: var(--textcolor);
+    font-weight: 800;
+    margin-bottom: 0.3em;
+}
+
+.account{
+    display: flex;
+    flex-direction: column;
+    gap: 0.1em;
+    background-color: var(--cardcolor);
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    margin:0 auto;
+    width: 70%;
+    border-radius: 1em;
+    margin-top: 1em;
+
+}
+
+.acc{
+    font-family: var(--fontfamily);
+    font-size: 2em;   
+    color: var(--textcolor);
+    font-weight: 700;
+    margin-bottom: 0.1em;
+    margin-top: 0.1em;
+}
+
+.accdet{
+    font-family: var(--fontfamily);
+    font-size: 1.5em;   
+    color: var(--textcolor);
+    font-weight: 500;
+    margin-bottom: 0.1em;
+    margin-top: 0.1em;
+}
+
+.accdet:hover{
+    cursor: pointer;
+}
+
+.accdt{
+    font-family: var(--fontfamily);
+    font-size: 1.5em;   
+    color: var(--textcolor);
+    font-weight: 700;
+    margin-bottom: 0.1em;
+    margin-top: 0.1em;
+    margin-left: 0.5em;
+}
+
+.accdets{
+    font-family: var(--fontfamily);
+    font-size: 1.5em;   
+    color: var(--textcolor);
+    font-weight: 500;
+    margin-bottom: 0.1em;
+    margin-top: 0.1em;
+    margin-left: 0.5em;
+    background-color: var(--buttoncolor);
+    padding: 0.3em 0.3em 0.3em 0.3em;
+    border-radius: 0.5em;
+    width: fit-content;
+}
+.accdets:hover{
+    cursor: pointer;
+}
+
+body{
+    font-family: var(--fontfamily);
+}
