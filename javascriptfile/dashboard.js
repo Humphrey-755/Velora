@@ -55,3 +55,13 @@ let percent = 70;
 innerbar.style.width= percent + '%';
 texting.textContent= 'Javascript'+  percent + '%';
 
+    let note = document.querySelector('.note')
+    let xicon = document.querySelector('.xicon')
+    let notbody =  document.querySelector('.notbody')
+
+    note.addEventListener ('click', (event) =>
+    {notbody.classList.toggle('show');});
+    
+    xicon.addEventListener ('click', (event) =>
+        {notbody.classList.remove('show');}
+    );

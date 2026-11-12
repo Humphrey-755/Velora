@@ -594,3 +594,57 @@ input[type="checkbox"]:checked {
     justify-content: center;
 }
 }
+
+.notbody{
+    background-color: var(--navcolor);
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    z-index: 105;
+    height: 50%;
+    border-radius: 0.7rem;
+    opacity: 0;
+    transition: 0.8s, ease-in;
+}
+.notbody.show{
+    opacity: 0.98;
+    transition: 0.8s, ease-in;
+}
+
+.header{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--textcolor);
+    font-family: var(--fontfamily);  
+    padding: 0.1em 0.1em 0.1em 0.1em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+.txtt{
+    text-align: left;
+    font-size: 1.5rem;
+    color: var(--textcolor);
+    font-family: var(--fontfamily); 
+    margin-left: 1em;
+}
+.notbanner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.xicon{    
+    width: 2em;
+    height: 2em;
+    margin-left: 95%;
+    padding: 0.1em 0.1em 0.1em 0.1em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    z-index: inherit;
+}
+.xicon:hover{
+    cursor: pointer;
+}
