@@ -27,20 +27,25 @@
     background-color: var(--navcolor);
     border-radius: 1em;
     border-style: none;
-    padding: 0.6em 0.6m 0.6em 0.6em;
+    padding: 0.6em 0.6em 0.6em 0.6em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 .addtask:hover{
     cursor: pointer;
 }   
 .priotask{
+    
     font-family: var(--fontfamily);
     font-size: 1.5rem;
     color: #1C211D;
-    border-color: var(--textcolor);
+    border-color: var(--navcolor);
     background-color: var(--navcolor);
     border-radius: 1em;
     border-style: none;
-    padding: 0.4em 0.4em 0.4em 0.4em;
+    padding: 0.6em 0.6em 0.6em 0.6em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 .priotask:hover{
     cursor: pointer;
@@ -49,4 +54,100 @@
     display: flex;
     flex-direction: row;
     gap: 1em;
+}
+
+.exitbutton{
+    width: 1.5em;
+    height: 1.5em;
+    margin-left: 90%;
+}
+.exitbutton:hover{
+    cursor: pointer;
+}
+.taskin{
+    background-color: var(--cardcolor);
+    border-color: black;
+    border-radius:1em ;
+    border-style: solid;
+    border-width: 1px;
+    height: fit-content;
+    min-height: 5em;
+    width: fit-content;
+    min-width: 40%;
+    margin-left:0.5em ;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    
+    
+}
+.taskin:focus{
+    outline: none;
+    border-color: none;
+}
+.alltasktext{
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    margin-top: 1.5em;
+    background-color:#E3E9E1;
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
+    opacity: 0;
+    z-index: 108;
+}
+.alltasktext.show{
+    opacity: 0.98;
+}
+.alltasktext.notshow{
+    opacity: 0;
+}
+.finishtask{
+    border-color: black;
+    border-radius: 1em;
+    border-width: 2px;
+    background-color: var(--navcolor);
+    border-style: none;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    margin-top: 1em;
+    
+}
+.realtask{
+    width: 70%;
+    margin: 0 auto;
+    background-color: var(--cardcolor);
+    color: var(--textcolor);
+    height: fit-content;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    margin-top: 1em;
+    min-height: 7em;
+    border-radius: 1em;
+    font-size: 1.5em;
+    font-style: italic;
+    
+}
+.inspo{
+    font-family: var(--fontfamily);
+}
+.addtasking{
+    font-family: var(--fontfamily);
+    font-size: 1.5rem;
+    color: #1C211D;
+    border-color: var(--navcolor);
+    background-color: var(--navcolor);
+    border-radius: 1em;
+    border-style: none;
+    padding: 0.6em 0.6em 0.6em 0.6em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+body{
+    font-family: var(--fontfamily);
 }

@@ -596,7 +596,7 @@ input[type="checkbox"]:checked {
 }
 
 .notbody{
-    background-color: var(--navcolor);
+    background-color: #E3E9E1;
     width: 80%;
     position: absolute;
     left: 50%;
